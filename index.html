@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My List</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <style type="text/tailwindcss">
+      @theme {
+        --color-clifford: #00ff;
+      }
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-[#eee8e8] text-white">
+
+<header class="flex justify-between items-center p-4 bg-[#343434] text-[#f14902] rounded-full">
+  
+  <h1 class='text-xl font-["Roboto_Mono"]'>My List</h1>
+
+  <nav class="flex gap-4">
+    <a href="#" class="hover:underline">Início</a>
+    <a href="#" class="hover:underline">Sobre</a>
+    <a href="#" class="hover:underline">Contato</a>
+  </nav>
+  
+</header>
+<section class="flex flex-col md:flex-row items-center gap-6 p-6">
+
+  <div class="flex items-center gap-6">
+    <!-- TEXTO À ESQUERDA -->
+ <div class="w-1/2">
+    <!-- Aqui será digitado o texto -->
+    <h1 id="typing" class='typing text-3xl font-bold text-[#f14902] font-["Roboto_Mono"]'></h1>
+    <br>
+    <h1 id="typing" class='typing text-3xl font-bold text-[#f14902] font-["Roboto_Mono"]'> Quem Sou Eu</h1>
+    <!-- Texto estático (sem animação) -->
+    <p class='typing text-lg mt-4 font-bold text-[#f14902] font-["Roboto_Mono"]'>
+        Sou um estudante dedicado das áreas de Administração de Empresas e Logística, com um crescente interesse por programação, tecnologia e inovação. Estou em busca da minha primeira oportunidade profissional para aplicar meus conhecimentos técnicos e ampliar minhas habilidades no desenvolvimento de soluções digitais que otimizem processos e impulsionem resultados.
+
+Tenho como objetivo unir a visão estratégica da gestão com as possibilidades da tecnologia, utilizando ferramentas e linguagens de programação para criar soluções eficientes, criativas e escaláveis. Sou movido pela curiosidade, aprendizado contínuo e pela vontade de fazer a diferença por meio da transformação digital.
+    </p>
+</div>
+
+
+    <!-- IMAGEM À DIREITA -->
+    <div class="w-69 ml-40">
+        <img src="./img/1755475114215.jpg" class="rounded-x2 shadow-lg w-full rounded-full">
+    </div>
+
+</div>
+</section>
+
+<section>
+  <div class="flex items-start gap-10 p-6">
+
+
+</div>
+</section>
+
+<script src="./script.js"></script>
+</body>
+</html>
